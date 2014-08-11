@@ -20,7 +20,7 @@ import com.example.jksonlib.JacksonRequest;
 import com.example.jksonlib.JacksonRequestListener;
 import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.type.SimpleType;
-
+     
 public class DemoActivity extends Activity {
 
 	private RequestQueue mRequestQueue;
