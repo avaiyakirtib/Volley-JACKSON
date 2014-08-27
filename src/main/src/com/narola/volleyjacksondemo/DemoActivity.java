@@ -50,7 +50,7 @@ public class DemoActivity extends Activity {
         params.put("radius", "2");
         
 	/*	mRequestQueue.add(new JacksonRequest<DateReturnType>(Method.POST,
-				"http://192.168.1.202/GuiaDeSkate/admin_API/api/skateparkbyRadius.php",
+				"Webservice URL",
 				new JacksonRequestListener<DateReturnType>() {
 					@Override
 					public void onResponse(DateReturnType response, int statusCode, VolleyError error) {
@@ -74,7 +74,7 @@ public class DemoActivity extends Activity {
         
         mRequestQueue.add(
          		new JacksonRequest<SkateParkDetails>(Method.POST,
-        		"http://narolademo.no-ip.org/GuiaDeSkate/admin_API/api/skateparkbyRadius.php",
+        		"skateparkbyRadius.php",
 				params,  
 				new JacksonRequestListener<SkateParkDetails>() {
 					@Override
